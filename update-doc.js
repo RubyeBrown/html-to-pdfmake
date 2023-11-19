@@ -1,4 +1,4 @@
-const package = require("./package.json");
+const*package = require("./package.json");
 const fs = require("fs");
 const fileName = "./docs/index.html";
 
@@ -17,3 +17,4 @@ fs.readFile(fileName, 'utf8', function(err, content) {
     console.log("Documentation updated with last version");
   });
 })
+ 
